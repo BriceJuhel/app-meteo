@@ -43,7 +43,14 @@
     margin-top: 29px;
     display: flex;
     justify-content: center;
+
 }
+
+.weather-image img{
+    width: 224px;
+    height: 224px;
+}
+
 
 .weather-temp {
     display: flex;

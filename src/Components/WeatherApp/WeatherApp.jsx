@@ -10,6 +10,7 @@ import rain_icon from '../Assets/rain.png';
 import snow_icon from '../Assets/snow.png';
 import wind_icon from '../Assets/wind.png';
 import humidity_icon from '../Assets/humidity.png';
+import thunder_icon from '../Assets/thunder.png';
 
 export const WeatherApp = () => {
 
@@ -62,7 +63,7 @@ export const WeatherApp = () => {
         }
         else if(data.weather[0].icon==="03d" || data.weather[0].icon==="03n")
         {
-            setWicon(drizzle_icon);
+            setWicon(cloud_icon);
         }
         else if(data.weather[0].icon==="04d" || data.weather[0].icon==="04n")
         {
@@ -78,7 +79,7 @@ export const WeatherApp = () => {
         }
         else if(data.weather[0].icon==="11d" || data.weather[0].icon==="11n")
         {
-            setWicon(rain_icon);
+            setWicon(thunder_icon);
         }
         else if(data.weather[0].icon==="13d" || data.weather[0].icon==="13n")
         {
