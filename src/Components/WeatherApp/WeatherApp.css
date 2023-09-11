@@ -101,8 +101,16 @@
       width: 100%;
       height: 100%;
       margin-top: 0;
+      margin-bottom: 0;
+      border-radius: 0px;
+      padding-bottom: 5rem;
     }
 
+    .top-bar input {
+        width: 200px;
+        height: 78px;  
+    }
+    
 
   }
   
